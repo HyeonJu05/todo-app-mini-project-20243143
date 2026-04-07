@@ -2,7 +2,7 @@
 node_modules/
 
 # env 파일
-.env
+backend/.env
 
 # 로그
 npm-debug.log*
