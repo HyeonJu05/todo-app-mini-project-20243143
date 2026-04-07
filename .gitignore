@@ -1,0 +1,16 @@
+# node modules
+node_modules/
+
+# env 파일
+.env
+
+# 로그
+npm-debug.log*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# build 결과물
+dist/
+build/
