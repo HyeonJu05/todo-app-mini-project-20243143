@@ -5,7 +5,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [text, setText] = useState('');
 
-  const API = 'http://localhost:5000/api/todos';
+  const API = '/api/todos';
 
   // 조회
   const fetchTodos = async () => {
