@@ -17,7 +17,7 @@ React + Node.js + MongoDB를 활용한 간단한 Todo 관리 웹 애플리케이
 ## 📂 폴더 구조
 todo-app/
 ├── frontend/   # React
-├── backend/    # Express API
+├── api/        # Express API (Serverless Function)
 └── README.md
 
 ---
@@ -25,16 +25,14 @@ todo-app/
 ## 🚀 실행 방법
 
 ### 1️⃣ Backend 실행
-cd backend
+cd api
 npm install
 npm run dev
-
 
 ### 2️⃣ Frontend 실행
 cd frontend
 npm install
 npm run dev
-
 
 ---
 
